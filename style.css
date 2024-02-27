@@ -1,0 +1,49 @@
+
+/*-------------
+     COLORS 
+---------------*/
+
+
+
+/*-------------
+    MS CONTAINER 
+---------------*/
+.ms-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ms-row {
+    margin-left: -10px;
+    margin-right: -10px;
+    display: flex;
+}
+
+.ms-col {
+    width: 100%;
+}
+
+
+/*-------------
+    HEADER 
+---------------*/
+
+header {
+    height: 90px;
+    width: 100%;
+    background-color: #F8F9FA;
+}
+
+header .ms-container {
+    height: 80%;
+    width: 100%;
+    display: flex;
+
+}
+
+header .ms-logo-box {
+    width: 70px;
+}
+
