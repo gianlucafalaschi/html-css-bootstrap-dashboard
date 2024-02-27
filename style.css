@@ -47,3 +47,27 @@ header .ms-logo-box {
     width: 70px;
 }
 
+/*-------------
+     ASIDE 
+---------------*/
+
+aside {
+    width: 70px;
+    height:calc(100vh - 90px);
+    background-color: #051E34;
+    background-image:url(img/sidebar-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*-------------
+     MAIN 
+---------------*/
+
+main {
+    background-color:#F8F9FA;
+    height:calc(100vh - 90px);
+    width: 100%;
+    overflow-y: auto;
+}
