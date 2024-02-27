@@ -14,10 +14,35 @@
 </head>
 <body>
     <header class="d-flex  align-items-center">
-        <div class="ms-container bg-white">
+        <div class="ms-container bg-white align-items-center">
             <div class="ms-logo-box">
                 <img class="img-fluid" src="img/mobile-logo.png" alt="">
             </div>
+
+            <div class="flex-grow-1">
+                <div class="input-group">
+                    <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" class="form-control" placeholder="Prova a cercare: lezioni di Laravel" aria-label="Search" aria-describedby="basic-addon2">
+                  </div> 
+            </div>
+        
+            <div>
+                <i class="fa-solid fa-list"></i>
+                <i class="fa-solid fa-circle-question"></i>
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+            
+            <div class="dropdown">
+                <button class="ms-bell border border-0 text-warning bg-transparent " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-bell"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><button class="dropdown-item" type="button">Profilo</button></li>
+                  <li><button class="dropdown-item" type="button">Fatturazione</button></li>
+                  <li><button class="dropdown-item" type="button">Logout</button></li>
+                </ul>
+              </div>
+            
         </div>
     </header>
 
