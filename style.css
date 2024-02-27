@@ -48,6 +48,16 @@ header .ms-logo-box {
 }
 
 /*-------------
+     CENTRAL BOX 
+---------------*/
+#central-box {
+    height:calc(100vh - 90px) ;
+}
+
+
+
+
+/*-------------
      ASIDE 
 ---------------*/
 
