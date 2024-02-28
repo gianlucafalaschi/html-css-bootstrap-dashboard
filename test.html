@@ -16,33 +16,35 @@
     <!-- HEADER -->
     <header class="d-flex  align-items-center">
         <div class="ms-container bg-white align-items-center">
-            <div class="ms-logo-box">
-                <img class="img-fluid" src="img/mobile-logo.png" alt="">
+            <div class="ms-logo-box ps-lg-2 pe-lg-3">
+                <img class="img-fluid d-lg-none" src="img/mobile-logo.png" alt="">
+                <img class="img-fluid d-none d-lg-inline-block" src="img/logo.svg" alt="">
             </div>
 
-            <div class="flex-grow-1">
+            <div class="flex-grow-1 me-3">
                 <div class="input-group">
-                    <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
-                    <input type="text" class="form-control" placeholder="Prova a cercare: lezioni di Laravel" aria-label="Search" aria-describedby="basic-addon2">
+                    <span class="input-group-text bg-body-secondary border border-0"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" class="form-control bg-body-secondary border border-0" placeholder="Prova a cercare: lezioni di Laravel" aria-label="Search" aria-describedby="basic-addon2">
                   </div> 
             </div>
         
-            <div>
-                <i class="fa-solid fa-list"></i>
-                <i class="fa-solid fa-circle-question"></i>
-                <i class="fa-solid fa-ellipsis-vertical"></i>
+            <div class="d-flex align-items-center text-secondary gap-3">
+                    <i class="d-none d-lg-inline-block fa-solid fa-list"></i>
+                    <i class="d-none d-lg-inline-block fa-solid fa-circle-question"></i>
+                    <i class="d-none d-lg-inline-block fa-solid fa-ellipsis-vertical"></i>
+                
+                
+                <div class="dropdown">
+                    <button class=" ms-bell border border-0 text-warning bg-transparent " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bell"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                    <li><button class="dropdown-item" type="button">Profilo</button></li>
+                    <li><button class="dropdown-item" type="button">Fatturazione</button></li>
+                    <li><button class="dropdown-item" type="button">Logout</button></li>
+                    </ul>
+                </div>
             </div>
-            
-            <div class="dropdown">
-                <button class="ms-bell border border-0 text-warning bg-transparent " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="fa-solid fa-bell"></i>
-                </button>
-                <ul class="dropdown-menu">
-                  <li><button class="dropdown-item" type="button">Profilo</button></li>
-                  <li><button class="dropdown-item" type="button">Fatturazione</button></li>
-                  <li><button class="dropdown-item" type="button">Logout</button></li>
-                </ul>
-              </div>
             
         </div>
     </header>
@@ -51,33 +53,31 @@
     <!-- CENTRAL BOX -->
     <div id="central-box" class="ms-container d-flex">
         <!-- ASIDE -->
-        <aside class="py-4 px-3 text-white d-flex flex-column justify-content-between ">
-            <div> 
-                <div class="mb-3 text-center text-lg-start">
-                    <i class="fs-6 me-lg-2 fa-solid fa-house"></i>
-                    <span class="d-none d-lg-inline-block">Home</span>
-                </div>
-                <div class="mb-3 text-center text-lg-start">
-                    <i class="fs-6 me-lg-2 fa-solid fa-chart-simple"></i>
-                    <span class="d-none d-lg-inline-block">Stats</span>
-                </div>
-                <div class="mb-3 text-center text-lg-start">
-                    <i class="fs-6 me-lg-2 fa-solid fa-signal"></i>
-                    <span class="d-none d-lg-inline-block">Signals</span>
-                </div>
-            </div>
+        <aside class="py-4 px-4 text-white d-flex flex-column justify-content-between ">
+            <ul class=" p-0 m-0"> 
+                <li class="mb-3 text-center text-lg-start">
+                    <a href="#"><i class="fs-6 me-lg-2 fa-solid fa-house"></i><span class="d-none d-lg-inline-block">Home</span></a>
+                </li>
+                <li class="mb-3 text-center text-lg-start">
+                    <a href="#"><i class="fs-6 me-lg-2 fa-solid fa-chart-simple"></i><span class="d-none d-lg-inline-block">Stats</span></a>
+                </li>
+                <li class="mb-3 text-center text-lg-start">
+                    <a href="#"><i class="fs-6 me-lg-2 fa-solid fa-signal"></i><span class="d-none d-lg-inline-block">Signals</span></a>
+                </li>
+            </ul>
 
-            <div>
+            <ul class="p-0 m-0">
                 <div class="text-center text-lg-start">
-                    <i class="fs-6 me-lg-2 fa-solid fa-gear"></i>
-                    <span class="d-none d-lg-inline-block">Admin</span>
+                    <li class="text-center text-lg-start">
+                        <a href="#"><i class="fs-6 me-lg-2 fa-solid fa-gear"></i><span class="d-none d-lg-inline-block">Admin</span></a>
+                    </li>
                 </div>
-            </div>
+            </ul>
         </aside>
         <!--/ASIDE -->
 
         <!-- MAIN -->
-        <main class="px-2">
+        <main class="p-2">
             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur voluptatibus explicabo quod expedita eum amet incidunt praesentium possimus! Omnis doloremque voluptatem expedita illo dolorem nesciunt molestiae nulla sequi a architecto? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae laborum qui, commodi hic voluptatibus alias blanditiis debitis atque suscipit nisi delectus, excepturi temporibus soluta odit iusto facere culpa nesciunt saepe! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, accusantium eligendi voluptates nulla sint aliquid est excepturi commodi fugiat molestias doloremque voluptatem optio placeat. Cum enim deserunt sapiente dolores magnam.  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur eaque quas, iure, minima debitis ea iusto eius voluptatibus voluptas eos fuga delectus earum adipisci, tenetur rerum quibusdam quae excepturi molestiae? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi reprehenderit exercitationem similique porro pariatur quia maiores provident molestiae modi explicabo rem corporis, id totam, blanditiis nostrum ea earum facilis voluptates?</p>
         </main>
         <!--/ MAIN -->

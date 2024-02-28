@@ -70,6 +70,17 @@ aside {
     flex-shrink: 0;
 }
 
+aside ul {
+    list-style: none;
+}
+
+aside ul a {
+    color: white;
+}
+
+aside ul a:hover {
+    background-color: #828F9B;
+}
 
 /*-------------
      MAIN 
