@@ -31,7 +31,7 @@
 ---------------*/
 
 header {
-    height: 90px;
+    height: 70px;
     width: 100%;
     background-color: #F8F9FA;
 }
@@ -51,7 +51,7 @@ header .ms-logo-box {
      CENTRAL BOX 
 ---------------*/
 #central-box {
-    height:calc(100vh - 90px);
+    height:calc(100vh - 70px);
 }
 
 
@@ -63,7 +63,6 @@ header .ms-logo-box {
 
 aside {
     width: 70px;
-    height:calc(100vh - 90px);
     background-color: #051E34;
     background-image:url(img/sidebar-bg.png);
     background-size: cover;
@@ -79,7 +78,6 @@ aside {
 
 main {
     background-color:#F8F9FA;
-    height:calc(100vh - 90px);
     width: 100%;
     overflow-y: auto;
 }
