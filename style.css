@@ -68,6 +68,7 @@ aside {
     background-image:url(img/sidebar-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    overlay: hidden;
 }
 
 
