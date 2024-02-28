@@ -69,6 +69,7 @@ aside {
     background-size: cover;
     background-repeat: no-repeat;
     overlay: hidden;
+    flex-shrink: 0;
 }
 
 
