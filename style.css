@@ -1,7 +1,10 @@
 
 /*-------------
-     COLORS 
+     DEBUG 
 ---------------*/
+.debug {
+    border: 1px dashed black;
+}
  
 
 
