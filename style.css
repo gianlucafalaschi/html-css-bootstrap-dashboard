@@ -138,9 +138,13 @@ main {
     overflow-y: auto;
 }
 
+/*-------------
+   OFFCANVAS 
+---------------*/
 
-
-
+#offcanvasWithBothOptions {
+    width: 100vw;
+}
 
 
 
@@ -155,5 +159,9 @@ main {
         width: 140px;
     }
 
+    #offcanvasWithBothOptions {
+        width: 50vw;
+    }   
 
 }
+
