@@ -6,6 +6,20 @@
     border: 1px dashed black;
 }
  
+/*-------------
+     BUTTONS
+---------------*/
+
+.ms-button-box {
+    height: 30px;
+width: 30px;
+border: 1px solid #6C757D;
+background-color: transparent;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 
 
 /*-------------
